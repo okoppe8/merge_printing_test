@@ -66,7 +66,8 @@
             })
 
             // underscore.js のテンプレート機能でテーブルのセルにデータを流し込む
-            var compiled = _.template('<div class="data"><p class="zipcode"><%= data.zipcode %></p></div>')
+            var compiled = _.template('<div class="data"><p class="zipcode"><%= data.zipcode %></p>' +
+                '<p class="name"><%= data.name %> 様</p></div>')
 
             var cell = $('table.print td');
             _.each(datalist, function (data, i) {
