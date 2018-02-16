@@ -62,6 +62,7 @@ table.print p.zipcode {
 
 table.print p.address1 {
     position: absolute;
+    line-height: 1 !important;
     font-size: 11pt;
     top: 12mm;
     left: 5mm;
@@ -69,6 +70,7 @@ table.print p.address1 {
 
 table.print p.address2 {
     position: absolute;
+    line-height: 1 !important;
     font-size: 11pt;
     top: 18mm;
     left: 5mm;
@@ -76,6 +78,7 @@ table.print p.address2 {
 
 table.print p.name {
     position: absolute;
+    line-height: 1 !important;
     font-size: 12pt;
     top: 25.0mm ;
     left: 5mm ;
