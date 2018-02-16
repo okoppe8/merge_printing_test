@@ -1,4 +1,8 @@
 /*設定画面*/
+@page {
+    size: A4;
+    margin: 0;
+}
 
 p.description {
     margin-top: 0.5em;
