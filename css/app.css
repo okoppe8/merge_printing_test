@@ -46,7 +46,6 @@ table.print .data {
     position: absolute;
     top: 0mm;
     left: 0mm;
-    width: 81.4mm;
 }
 
 table.print p{
