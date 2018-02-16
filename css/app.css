@@ -42,11 +42,6 @@ table.print td {
     position: relative;
 }
 
-table.print .data {
-    position: absolute;
-    top: 0mm;
-    left: 0mm;
-}
 
 table.print p{
     margin: 0;
